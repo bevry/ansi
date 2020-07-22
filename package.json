@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Fork of @thlorenz's ansicolors and ansistyles packages that converts them to typescript and makes them compatible with deno",
   "homepage": "https://github.com/bevry/ansi",
   "license": "MIT",
@@ -62,7 +62,7 @@
     }
   },
   "funding": "https://bevry.me/fund",
-  "author": "2020+ Benjamin Lupton <b@lupton.cc> (http://balupton.com), 2013 Thorsten Lorenz",
+  "author": "2020+ Benjamin Lupton <b@lupton.cc> (https://balupton.com), 2013 Thorsten Lorenz (https://www.twitch.tv/thlorenz)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
@@ -215,5 +215,9 @@
     "semi": false,
     "singleQuote": true
   },
-  "contributors": []
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Thorsten Lorenz (https://github.com/thlorenz)",
+    "Thorsten Lorenz (https://github.com/thlorenz)"
+  ]
 }

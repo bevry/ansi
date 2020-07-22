@@ -51,14 +51,14 @@ Fork of @thlorenz's ansicolors and ansistyles packages that converts them to typ
 <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
 
 ``` typescript
-import * as pkg from 'https://unpkg.com/@bevry/ansi@^1.0.0/edition-deno/index.ts'
+import * as pkg from 'https://unpkg.com/@bevry/ansi@^1.1.0/edition-deno/index.ts'
 ```
 
 <a href="https://www.pika.dev/cdn" title="100% Native ES Modules CDN"><h3>pika</h3></a>
 
 ``` html
 <script type="module">
-    import * as pkg from '//cdn.pika.dev/@bevry/ansi/^1.0.0'
+    import * as pkg from '//cdn.pika.dev/@bevry/ansi/^1.1.0'
 </script>
 ```
 
@@ -66,7 +66,7 @@ import * as pkg from 'https://unpkg.com/@bevry/ansi@^1.0.0/edition-deno/index.ts
 
 ``` html
 <script type="module">
-    import * as pkg from '//unpkg.com/@bevry/ansi@^1.0.0'
+    import * as pkg from '//unpkg.com/@bevry/ansi@^1.1.0'
 </script>
 ```
 
@@ -74,7 +74,7 @@ import * as pkg from 'https://unpkg.com/@bevry/ansi@^1.0.0/edition-deno/index.ts
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/@bevry/ansi@1.0.0'
+    import * as pkg from '//dev.jspm.io/@bevry/ansi@1.1.0'
 </script>
 ```
 
@@ -118,7 +118,7 @@ import * as pkg from 'https://unpkg.com/@bevry/ansi@^1.0.0/edition-deno/index.ts
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/ansi/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/ansi">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/ansi/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/ansi">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -136,7 +136,11 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/ansi/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/ansi">view contributions</a></li>
+<li><a href="https://github.com/thlorenz">Thorsten Lorenz</a> — <a href="https://github.com/bevry/ansi/commits?author=thlorenz" title="View the GitHub contributions of Thorsten Lorenz on repository bevry/ansi">view contributions</a></li>
+<li><a href="https://github.com/thlorenz">Thorsten Lorenz</a> — <a href="https://github.com/bevry/ansi/commits?author=thlorenz" title="View the GitHub contributions of Thorsten Lorenz on repository bevry/ansi">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/ansi/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
@@ -149,8 +153,8 @@ No contributors yet! Will you be the first?
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2020+ <a href="http://balupton.com">Benjamin Lupton</a></li>
-<li>Copyright &copy; 2013 Thorsten Lorenz</li></ul>
+<ul><li>Copyright &copy; 2020+ <a href="https://balupton.com">Benjamin Lupton</a></li>
+<li>Copyright &copy; 2013 <a href="https://www.twitch.tv/thlorenz">Thorsten Lorenz</a></li></ul>
 
 and licensed under:
 

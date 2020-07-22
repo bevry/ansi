@@ -4,8 +4,8 @@
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2020+ <a href="http://balupton.com">Benjamin Lupton</a></li>
-<li>Copyright &copy; 2013 Thorsten Lorenz</li></ul>
+<ul><li>Copyright &copy; 2020+ <a href="https://balupton.com">Benjamin Lupton</a></li>
+<li>Copyright &copy; 2013 <a href="https://www.twitch.tv/thlorenz">Thorsten Lorenz</a></li></ul>
 
 and licensed under:
 
