@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Fork of @thlorenz's ansicolors and ansistyles packages that converts them to typescript and makes them compatible with deno",
   "homepage": "https://github.com/bevry/ansi",
   "license": "MIT",
@@ -66,6 +66,11 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Thorsten Lorenz (https://github.com/thlorenz)",
+    "Thorsten Lorenz (https://github.com/thlorenz)"
+  ],
   "bugs": {
     "url": "https://github.com/bevry/ansi/issues"
   },
@@ -88,19 +93,6 @@
       "engines": false
     },
     {
-      "description": "TypeScript compiled against ES2019 for web browsers with Import for modules",
-      "directory": "edition-browsers",
-      "entry": "index.js",
-      "tags": [
-        "javascript",
-        "import"
-      ],
-      "engines": {
-        "node": false,
-        "browsers": "defaults"
-      }
-    },
-    {
       "description": "TypeScript compiled against ESNext for Node.js 10 || 12 || 13 || 14 with Require for modules",
       "directory": "edition-esnext",
       "entry": "index.js",
@@ -112,6 +104,19 @@
       "engines": {
         "node": "10 || 12 || 13 || 14",
         "browsers": false
+      }
+    },
+    {
+      "description": "TypeScript compiled against ES2019 for web browsers with Import for modules",
+      "directory": "edition-browsers",
+      "entry": "index.js",
+      "tags": [
+        "javascript",
+        "import"
+      ],
+      "engines": {
+        "node": false,
+        "browsers": "defaults"
       }
     },
     {
@@ -158,23 +163,23 @@
   "browser": "edition-browsers/index.js",
   "module": "edition-browsers/index.js",
   "devDependencies": {
-    "@bevry/update-contributors": "^1.13.0",
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
+    "@bevry/update-contributors": "^1.14.0",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
     "assert-helpers": "^6.18.0",
-    "eslint": "^7.5.0",
+    "eslint": "^7.6.0",
     "eslint-config-bevry": "^3.17.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "kava": "^5.9.0",
-    "make-deno-edition": "^0.14.0",
+    "make-deno-edition": "^0.15.0",
     "prettier": "^2.0.5",
-    "projectz": "^2.11.0",
+    "projectz": "^2.12.0",
     "surge": "^0.21.6",
     "typedoc": "^0.17.8",
     "typescript": "^3.9.7",
-    "valid-directory": "^2.6.0",
-    "valid-module": "^1.10.0"
+    "valid-directory": "^2.7.0",
+    "valid-module": "^1.11.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
@@ -214,10 +219,5 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Thorsten Lorenz (https://github.com/thlorenz)",
-    "Thorsten Lorenz (https://github.com/thlorenz)"
-  ]
+  }
 }
