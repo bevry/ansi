@@ -2,7 +2,7 @@
  * Color Codes explained: http://www.termsys.demon.co.uk/vtansi.htm#colors
 
  * Following caveats:
- * bright    - brightens the color (bold-blue is same as brigthtBlue)
+ * bright    - brightens the color (bold-blue is same as brightBlue)
  * dim       - nothing on Mac or Linux
  * italic    - nothing on Mac or Linux
  * underline - underlines string
@@ -38,7 +38,7 @@ export const bright = style(1, 22)
 /** Make the text dimmer than usual */
 export const dim = style(2, 22)
 
-/** Make the text italicised */
+/** Make the text italicized */
 export const italic = style(3, 23)
 
 /** Make the text underlined */
@@ -137,7 +137,7 @@ export const bgBrightYellow = backgroundColor(103)
 /** Make the text's background bright blue */
 export const bgBrightBlue = backgroundColor(104)
 
-/** Make the text's background bright magentta */
+/** Make the text's background bright magenta */
 export const bgBrightMagenta = backgroundColor(105)
 
 /** Make the text's background bright cyan */
