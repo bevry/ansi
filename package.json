@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Fork of @thlorenz's ansicolors and ansistyles packages that converts them to typescript and makes them compatible with deno",
   "homepage": "https://github.com/bevry/ansi",
   "license": "MIT",
@@ -69,6 +69,7 @@
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Thorsten Lorenz (https://github.com/thlorenz)",
     "Thorsten Lorenz (https://github.com/thlorenz)"
   ],
   "bugs": {
@@ -172,12 +173,12 @@
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "assert-helpers": "^8.0.1",
-    "eslint": "^7.12.0",
+    "eslint": "^7.12.1",
     "eslint-config-bevry": "^3.22.0",
-    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "kava": "3.2.0",
-    "make-deno-edition": "^1.1.1",
+    "make-deno-edition": "^1.2.0",
     "prettier": "^2.1.2",
     "projectz": "^2.16.0",
     "surge": "^0.21.6",
