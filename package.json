@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "ANSI colors and styles for Deno, Node.js, JavaScript, and TypeScript",
   "homepage": "https://github.com/bevry/ansi",
   "license": "MIT",
@@ -146,7 +146,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES2019 for Node.js 6 || 8 || 10 || 12 || 14 with Require for modules",
+      "description": "TypeScript compiled against ES2019 for Node.js 6 || 8 || 10 || 12 || 14 || 16 with Require for modules",
       "directory": "edition-es2019",
       "entry": "index.js",
       "tags": [
@@ -156,12 +156,12 @@
         "require"
       ],
       "engines": {
-        "node": "6 || 8 || 10 || 12 || 14",
+        "node": "6 || 8 || 10 || 12 || 14 || 16",
         "browsers": false
       }
     },
     {
-      "description": "TypeScript compiled against ES5 for Node.js 4 || 6 || 8 || 10 || 12 || 14 with Require for modules",
+      "description": "TypeScript compiled against ES5 for Node.js 4 || 6 || 8 || 10 || 12 || 14 || 16 with Require for modules",
       "directory": "edition-es5",
       "entry": "index.js",
       "tags": [
@@ -171,12 +171,12 @@
         "require"
       ],
       "engines": {
-        "node": "4 || 6 || 8 || 10 || 12 || 14",
+        "node": "4 || 6 || 8 || 10 || 12 || 14 || 16",
         "browsers": false
       }
     },
     {
-      "description": "TypeScript compiled against ES2019 for Node.js 12 || 14 with Import for modules",
+      "description": "TypeScript compiled against ES2019 for Node.js 12 || 14 || 16 with Import for modules",
       "directory": "edition-es2019-esm",
       "entry": "index.js",
       "tags": [
@@ -186,7 +186,7 @@
         "import"
       ],
       "engines": {
-        "node": "12 || 14",
+        "node": "12 || 14 || 16",
         "browsers": false
       }
     },
@@ -222,13 +222,13 @@
   "browser": "edition-browsers/index.js",
   "module": "edition-browsers/index.js",
   "dependencies": {
-    "editions": "^6.2.1"
+    "editions": "^6.5.0"
   },
   "devDependencies": {
-    "@bevry/update-contributors": "^1.18.0",
+    "@bevry/update-contributors": "^1.19.0",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
-    "assert-helpers": "^8.1.0",
+    "assert-helpers": "^8.2.0",
     "eslint": "^7.31.0",
     "eslint-config-bevry": "^3.23.0",
     "eslint-config-prettier": "^8.3.0",
@@ -241,7 +241,7 @@
     "typedoc": "^0.21.4",
     "typescript": "4.3.5",
     "valid-directory": "^3.7.0",
-    "valid-module": "^1.15.0"
+    "valid-module": "^1.16.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
