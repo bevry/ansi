@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "ANSI colors and styles for Deno, Node.js, JavaScript, and TypeScript",
   "homepage": "https://github.com/bevry/ansi",
   "license": "Artistic-2.0",
@@ -116,7 +116,7 @@
     "url": "https://github.com/bevry/ansi.git"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=6"
   },
   "editions": [
     {
@@ -145,7 +145,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ES2022 for Node.js 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21 with Require for modules",
+      "description": "TypeScript compiled against ES2022 for Node.js 6 || 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21 with Require for modules",
       "directory": "edition-es2022",
       "entry": "index.js",
       "tags": [
@@ -155,7 +155,7 @@
         "require"
       ],
       "engines": {
-        "node": "8 || 10 || 12 || 14 || 16 || 18 || 20 || 21",
+        "node": "6 || 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21",
         "browsers": false
       }
     },
@@ -209,7 +209,7 @@
     "@types/node": "^20.9.0",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
-    "assert-helpers": "^10.0.0",
+    "assert-helpers": "^10.1.0",
     "eslint": "^8.53.0",
     "eslint-config-bevry": "^3.29.0",
     "eslint-config-prettier": "^9.0.0",
