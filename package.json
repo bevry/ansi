@@ -1,6 +1,6 @@
 {
   "name": "@bevry/ansi",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "ANSI colors and styles for Deno, Node.js, JavaScript, and TypeScript",
   "homepage": "https://github.com/bevry/ansi",
   "license": "Artistic-2.0",
@@ -209,7 +209,7 @@
     "@types/node": "^20.9.0",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
-    "assert-helpers": "^8.4.0",
+    "assert-helpers": "^10.0.0",
     "eslint": "^8.53.0",
     "eslint-config-bevry": "^3.29.0",
     "eslint-config-prettier": "^9.0.0",
