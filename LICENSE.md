@@ -5,7 +5,7 @@
 Unless stated otherwise all works are:
 
 -   Copyright &copy; 2020+ [Benjamin Lupton](https://balupton.com)
--   Copyright &copy; 2013 [Thorsten Lorenz](https://www.twitch.tv/thlorenz)
+-   Copyright &copy; 2013 [Thorsten Lorenz](https://twitch.tv/thlorenz)
 
 and licensed under:
 

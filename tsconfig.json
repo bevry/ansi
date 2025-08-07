@@ -4,11 +4,12 @@
     "downlevelIteration": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+    "lib": ["ESNext"],
     "maxNodeModuleJsDepth": 5,
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "esnext",
+    "moduleResolution": "node",
     "strict": true,
-    "target": "ES2022"
+    "target": "es2023"
   },
   "include": ["source"]
 }

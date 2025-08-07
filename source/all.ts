@@ -14,18 +14,33 @@ export enum Color {
 	White = 7,
 }
 
-/** A factory method to generate an ANSI style applier from the open and close codes */
+/**
+ * A factory method to generate an ANSI style applier from the open and close codes
+ * @param open - The ANSI open code for the style
+ * @param close - The ANSI close code for the style
+ * @returns A function that applies the ANSI style to a string
+ */
 export function style(open: number, close: number) {
 	return (str: string) => '\u001b[' + open + 'm' + str + '\u001b[' + close + 'm'
 }
 
-/** A factory method to generate an ANSI foreground color applier from the foreground color code */
+/**
+ * A factory method to generate an ANSI foreground color applier from the foreground color code
+ * @param color The color to apply to the foreground
+ * @param bright Whether to use the bright variant of the color
+ * @returns A function that applies the ANSI foreground color to a string
+ */
 export function foregroundColor(color: Color, bright = false) {
 	// 30-37, 38
 	return style((bright ? 90 : 30) + color, 39)
 }
 
-/** A factory method to generate an ANSI background color applier from the background color code */
+/**
+ * A factory method to generate an ANSI background color applier from the background color code
+ * @param color The color to apply to the background
+ * @param bright Whether to use the bright variant of the color
+ * @returns A function that applies the ANSI background color to a string
+ */
 export function backgroundColor(color: Color, bright = false) {
 	// 40-47, 48
 	return style((bright ? 100 : 40) + color, 49)
@@ -44,13 +59,13 @@ export const reset = style(0, 22)
 /** Make the text bold, or with increased intensity */
 export const bold = style(1, 22)
 
-/** Make the text faint, or with decreased intensity	 */
+/** Make the text faint, or with decreased intensity */
 export const faint = style(2, 22)
 
-/** Make the text bold, or with increased intensity  */
+/** Make the text bold, or with increased intensity */
 export const bright = bold
 
-/** Make the text faint, or with decreased intensity	 */
+/** Make the text faint, or with decreased intensity */
 export const dim = faint
 
 /** Make the text italicized */
